@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    margin: auto;
+    background-image: url("../images/ep_naturalwhite.png");
+    height: 100%;
+}
+
+header {
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 185px;
+    padding-right: 220px;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+#logo {
+    display: block;
+    background: #4aaaa5;
+    float: left;
+    margin-left: 50px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#nav {
+    float: right;
+    margin-top: 20px;
+    display: block;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.ul {
+    list-style: none;
+    overflow: auto;
+}
+
+li {
+    display: inline;
+    width: 90px;
+    float: left;
+}
+
+a.navLinks:link {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #777777;
+    width: 90px;
+}
+
+a.navLinks:hover {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background: #4aaaa5;
+    width: 90px;
+}
+
+a.navLinks:active {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background: #4aaaa5;
+    width: 90px;
+}
+
+a.navLinks:visited {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #777777;
+    width: 90px;
+}
+
+#content {
+    width: 960px;
+    min-height: 100%;
+    margin: auto;
+    margin-bottom: -80px;
+}
+
+#content:after {
+  content: "";
+  display: block;
+}
+#footer, #content:after {
+  height: 80px; 
+}
+section {
+    width: 650px;
+    background: #ffffff;
+    border: 2px solid #dddddd;
+    height: auto;
+    padding: 20px;
+    float: left;
+    
+    margin: 20px;
+    margin-left: 0;
+}
+
+.connectWithMePic {
+    width: 70px;
+    height: 70px;
+}
+
+.mainHeader {
+    text-align: left;
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.profilePic {
+    float: left;
+    margin-right: 20px;
+}
+
+.paragraph {
+    text-align: left;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 200%;
+}
+
+aside {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 270px;
+    height: auto;
+    padding: 20px;
+    float: left;
+    margin: 20px 0 20px 20px;
+    background: #ffffff;
+    color: #4aaaa5;
+}
+
+.connectWithMeHeader {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #cccccc;
+
+}
+
+footer {
+    clear: both;
+    background: #666666;
+    border-top: 5px solid #4aaaa5;
+    padding: 30px;
+    color: #cccccc;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    height: 80px;
+    
+}
+input{
+	float: left;
+	width: 560px;
+	text-align: left;
+}
+input.button{
+	
+	width: auto;
+	text-align: left;
+	display: block;
+	padding: 10px;
+	background: #4aaaa5;
+	color: white;
+	border-style: none;
+	margin-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+textarea{
+	float: left;
+	
+}
+.portfolioPic{
+	float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.paragraphForm{
+	text-align: left;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
